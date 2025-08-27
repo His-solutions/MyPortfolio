@@ -1,0 +1,470 @@
+body{
+    background-color:#040020;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    max-width: 100%;
+    min-width: 20%;
+}
+.logo{
+    width: 20px;
+}
+#fb{
+    width: 25px;
+    margin-top: 0px;
+    padding-top: 0%;
+    margin-right: 0%;
+    
+
+}
+.main-name{
+    font-family:fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color:aqua;
+    
+    
+}
+.nav ul li {
+    list-style: none;
+    line-height: 20px;
+    display:inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    
+   
+   
+}
+.nav a{
+    text-decoration: none;
+    color:white
+
+   
+    
+ 
+}
+.nav ul{
+    margin-left: 900px;
+    
+}
+
+.nav ul a:hover{
+    border-radius: 2px;
+    background-color:white ;
+    color:rgb(4, 0, 32);
+    padding: 10px;
+}
+
+
+.nav ul  a:active{
+    color:rgb(13, 151, 13);
+}
+.bio h2{
+    font-size: 30px;
+    color: white;
+    margin-left:30px;
+    margin-top: 10px;
+}
+.bio h4{
+    color: aqua;
+    font-size: 25px;
+    font-family: arial;
+    margin-left:30px;
+    margin-bottom: 5px;
+}
+.bio p{
+    color: white;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+}
+
+/* logo */
+.logo{
+    padding: 5px;
+}
+.bio li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* about */
+.about h3{
+    color:aqua;
+    margin-left:30px;
+    font-size: 18px;
+}
+.about p{
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+/* project */
+.project h3{
+    color:aqua;
+    margin-left:30px;
+    font-size: 18px;
+}
+.project p{
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+}
+
+/* experience */
+.experience h3{
+    color:aqua;
+    margin-left:30px;
+    font-size: 18px;
+}
+.experience p{
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+/* enquire*/
+.enquire h3{
+        color:aqua;
+    margin-left:30px;
+    font-size: 18px;
+}
+.enquire form{
+        color:#f4f4f4;
+    margin-left:30px;
+    font-size: 18px;
+    
+}
+.enquire input{
+    padding: 7px;
+    margin-top: 10px;
+    width:250px
+}
+.enquire textarea{
+    padding: 10px;
+    margin-top: 10px;
+    width:250px
+}
+.enquire button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+}
+/* footer */
+footer{
+    background-color:aqua ;
+    color: rgb(4, 0, 32);
+    padding: 0.05px;
+    text-align: center;
+    
+    
+}
+
+/* main */
+main{
+    display: flex;
+}
+
+.down-div{
+    margin-left: 50%;
+    
+}
+
+.bio{
+    width:30%;
+    position:fixed;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.project{
+    width:100%;
+    display: flex;
+}
+.experience{
+    width: 100%;
+    display: flex;
+}
+.about{
+    width: 100%;
+    display: flex;
+}
+.about:hover{
+    background-color:rgb(3, 0, 19);
+    border-radius: 10px;
+    padding: 10;
+    border: solid 2px aqua;
+}
+
+.experience:hover{
+    background-color:rgb(3, 0, 19);
+    border-radius: 10px;
+    padding: 10;
+    border: solid 2px aqua;
+}
+
+#last-img{
+    margin-top: 80px;
+}
+
+
+/* project image */
+.pro-img{
+    width:200px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor:progress;
+    
+    
+}
+.pro-img:hover{
+    transform: scale(1.05);
+    border-radius: 20px;
+    
+}
+
+
+.project:hover{
+    background-color:rgb(3, 0, 19);
+    border-radius: 7px;
+    padding: 10;
+    border: solid 2px aqua;
+}
+
+/* submit button */
+
+.submit:hover{
+    border-radius: 2px;
+    background-color:rgb(4, 0, 32) ;
+    color:white;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+
+.submit:active{
+    color:rgb(13, 151, 13);
+}
+.submit{
+    padding: 10px;
+    border: solid 2px rgb(13, 8, 92) ;
+    background-color: white;
+    
+}
+
+/* responsive */
+@media (max-width:997px) {
+   body{
+    background-color:rgb(4, 0, 32)
+
+   } 
+   .nav ul a:hover{
+    border-radius: 2px;
+    background-color:white ;
+    color:rgb(4, 0, 32);
+    padding:5px;
+}
+
+
+   .nav ul li {
+    list-style: none;
+    line-height: 10px;
+    display:inline-block;
+    margin-right: 5px;
+    
+    padding: 10px;
+    
+   
+   
+}
+
+.nav ul{
+    margin-left: 600px;
+    
+}
+
+}
+
+
+
+
+@media (max-width:979px){
+    .nav ul{
+    margin-left: 450px;
+    
+}
+
+.project{
+    width:100%;
+    display: block;
+}
+.experience{
+    width: 100%;
+    display: block;
+    
+}
+.about{
+    width: 100%;
+   display: block;
+}
+
+.pro-img{
+    width:350px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: progress;
+    
+}
+#last-img{
+    width:350px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+}
+@media (max-width:993px){
+    .nav ul{
+    margin-left: 500px;
+    
+}
+}
+@media (max-width:860px){
+   .nav ul{
+    margin-left: 500px;
+    
+}
+
+}
+@media (max-width:891px){
+    .nav ul{
+    margin-left: 400px;
+}
+}
+
+/* second respon.. */
+@media (max-width:795px){
+    .bio{
+    width:100%;
+    position:relative;
+
+}
+main{
+    display: block;
+}
+.project{
+    width:100%;
+    display: block;
+}
+.experience{
+    width: 100%;
+    display: block;
+}
+.about{
+    width: 100%;
+    display: block;
+}
+.down-div{
+    margin-left: 0%;
+    
+}
+.nav ul{
+    margin-left: 0%;
+
+    
+}
+.nav ul li{
+    margin: 2px;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+.pro-img{
+    width:350px;
+    
+}
+.enquire form {
+    text-align: center;
+}
+
+.bio h2{
+    font-size: 25px;
+    
+}
+.bio h4{
+    color: aqua;
+    font-size: 20px;
+    
+}
+.bio p{
+    color: white;
+    width: 80%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.about h3{
+    color:aqua;
+    margin-left:30px;
+    font-size: 18px;
+}
+.about p{
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+/* project */
+.project h3{
+    
+    font-size: 18px;
+}
+.project p{
+    color: white;
+    font-size: 15px;
+    width: 80%;
+}
+.about p{
+    width: 80%;
+}
+.experience p{
+    width: 80%;
+}
+footer h3{
+    padding: 0px;
+}
+.pro-img{
+    width:300px;
+    
+}
+#last-img{
+     width:300px;
+     margin-left: 30px;
+}
+footer h3{
+    font-size: 17px;
+}
+}
